@@ -4,12 +4,11 @@ Given a sorted array nums, remove the duplicates in-place such that each element
 
 Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
-- Notes:
-Pointer 1: `lastNondup` track the index of the last non-duplicate number
+- Pointer 1: `lastNondup` track the index of the last non-duplicate number
 
-Pointer 2: `i` iterate through each number 
+- Pointer 2: `i` iterate through each number 
 
-Remember to convert index `lastNondup` to the length
+- Remember to convert index `lastNondup` to the length
 
 ```python
 def removeDuplicates(self, nums):
